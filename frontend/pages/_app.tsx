@@ -1,12 +1,11 @@
 // Components, hooks, packages
-import Router from 'next/router'
-import localFont from 'next/font/local'
-import { Be_Vietnam_Pro } from 'next/font/google'
-import { Nothing_You_Could_Do } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/react'
+import { Be_Vietnam_Pro, Nothing_You_Could_Do } from 'next/font/google'
+import localFont from 'next/font/local'
+import Router from 'next/router'
+import NProgress from 'nprogress'
 import Layout from '../components/Global/Layout/Layout'
 import { CookiesProvider } from '../hooks/useCookies'
-import NProgress from 'nprogress'
 
 // Styles
 import 'nprogress/nprogress.css'
