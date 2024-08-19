@@ -11,13 +11,13 @@ export default function LinkTree() {
   const linkData = [
     {
       id: 1,
-      description: 'Website',
-      url: 'https://moonbellymakes.com',
+      description: '🌀 Shop 🌀',
+      url: 'https://moonbellymakes.myshopify.com/',
     },
     {
       id: 2,
-      description: 'YouTube',
-      url: 'https://www.youtube.com/@moonbellymakes',
+      description: 'Website',
+      url: 'https://moonbellymakes.com',
     },
     {
       id: 3,
@@ -26,11 +26,21 @@ export default function LinkTree() {
     },
     {
       id: 4,
+      description: 'YouTube',
+      url: 'https://www.youtube.com/@moonbellymakes',
+    },
+    {
+      id: 5,
       description: 'Instagram',
       url: 'https://www.instagram.com/moonbellymakes/',
     },
     {
-      id: 5,
+      id: 6,
+      description: 'TikTok',
+      url: 'https://www.tiktok.com/@moonbellymakes',
+    },
+    {
+      id: 7,
       description: 'Pinterest',
       url: 'https://www.pinterest.com/moonbellymakes/',
     },

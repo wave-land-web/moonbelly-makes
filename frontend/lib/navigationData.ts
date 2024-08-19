@@ -88,8 +88,8 @@ export const navigationData = [
   },
   {
     id: 4,
-    title: 'About',
-    href: '/about',
+    title: 'Shop',
+    href: 'https://moonbellymakes.myshopify.com/',
     subNav: null,
   },
 ]

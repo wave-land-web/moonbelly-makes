@@ -1,10 +1,5 @@
 // Components
-import {
-  TbBrandYoutube,
-  TbBrandInstagram,
-  TbMail,
-  TbBrandPinterest,
-} from 'react-icons/tb'
+import { TbBrandInstagram, TbBrandPinterest, TbBrandTiktok, TbBrandYoutube } from 'react-icons/tb'
 
 // Styles
 import styles from './SocialIcons.module.css'
@@ -14,13 +9,7 @@ import styles from './SocialIcons.module.css'
  */
 export default function SocialIcons({ darkMode = false }) {
   return (
-    <div
-      className={
-        darkMode
-          ? `${styles.iconContainer} ${styles.dark}`
-          : styles.iconContainer
-      }
-    >
+    <div className={darkMode ? `${styles.iconContainer} ${styles.dark}` : styles.iconContainer}>
       <a
         href="https://www.youtube.com/@moonbellymakes"
         target="_blank"
@@ -38,10 +27,12 @@ export default function SocialIcons({ darkMode = false }) {
         <TbBrandInstagram />
       </a>
       <a
-        href="mailto:moonbellymakes@gmail.com?subject=Contact from moonbellymakes.com"
-        aria-label="Email"
+        href="https://www.tiktok.com/@moonbellymakes"
+        target="_blank"
+        rel="noreferrer"
+        aria-label="TikTok"
       >
-        <TbMail />
+        <TbBrandTiktok />
       </a>
       <a
         href="https://www.pinterest.com/moonbellymakes/"
